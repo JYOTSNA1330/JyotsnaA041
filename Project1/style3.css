@@ -1,0 +1,55 @@
+body{
+  background: url(http://4.bp.blogspot.com/_jFM-Fd8NDFE/TPZ3c_LoJrI/AAAAAAAALbg/Y2c7AKdWlS4/s1600/OilPainting-3.jpg) no-repeat;
+  background-size:1500px;
+  background-attachment: fixed; 
+  background-position: center;
+  font-family: Comic Sans MS;
+  line-height: 1.5;
+  margin: 0; 
+  padding: 0;
+}
+
+h1{
+    color: black;
+	font-size:56px;
+	text-align:center;
+	font-weight: bolder;
+	text-decoration: underline;
+	text-shadow: 2px 2px 8px #FF0000;
+}
+
+section {
+	background-color: none;
+	border-radius: 10px;
+	border-style: ridge;
+	border-color: rgb(66,29,16);
+	padding:  25px;
+	margin: 15px;
+    
+
+}
+
+#i1 {
+    display: block;
+    margin: auto;
+    width: 50%;
+    border-radius: 8px;
+    border: 3px solid rgb(66,29,16);
+    padding: 1px;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    border: 2px solid rgb(66,29,16);
+    color: white;
+    display: block;
+    width: 300px;
+    border-style: ridge;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+a:hover ,a:active{
+	background-color: white;
+	color: black;
+}

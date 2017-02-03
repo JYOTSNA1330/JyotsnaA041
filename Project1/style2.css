@@ -1,0 +1,222 @@
+h1{
+    color: black;
+	font-size:56px;
+	text-align:center;
+	font-weight: bold;
+	text-decoration: underline;
+	text-shadow: 2px 2px 8px #FF0000;
+}
+
+#box {
+  background-color: lightblue;
+  color:green;
+  padding: 10px;
+  border: 5px solid black;
+  width: 400px;
+  height: 50px;
+  margin-top: 50px;
+  box-shadow: 8px 8px 18px orange;
+  margin-left: 400px;
+}
+
+article {
+  width: 50%;
+  border: 1px solid black;
+  padding: 10px;
+  font-weight: bolder;
+  color:white;
+}
+image {
+  width: 50%;
+  
+}
+
+#a1 {
+  background-color: teal;
+  float: left;
+  height: 229px;
+  
+
+}
+#i1 {
+  clear: left;
+  border: 1px solid black;
+  width: 540px;
+}
+
+#a2 {
+
+  background-color: teal;
+  float: left;
+  height: 279px;
+}
+#i2 {
+  clear: left;
+  border: 1px solid black;
+  width: 540px;
+}
+#a3 {
+  background-color: teal;
+  float: left;
+  height: 229px;
+  
+
+}
+#i3 {
+  clear: left;
+  border: 1px solid black;
+  width: 540px;
+}
+
+#a4 {
+
+  background-color: teal;
+  float: left;
+  height: 230px;
+}
+#i4 {
+  clear: left;
+  border: 1px solid black;
+  width: 540px;
+}
+#a5 {
+  background-color: teal;
+  float: left;
+  height: 229px;
+  
+
+}
+#i5 {
+  clear: left;
+  border: 1px solid black;
+  width: 540px;
+}
+
+#a6 {
+
+  background-color: teal;
+  float: left;
+  height: 230px;
+}
+#i6 {
+  clear: left;
+  border: 1px solid black;
+  width: 540px;
+}
+#a7 {
+  background-color: teal;
+  float: left;
+  height: 229px;
+  
+
+}
+#i7 {
+  clear: left;
+  border: 1px solid black;
+  width: 540px;
+}
+
+#a8 {
+
+  background-color: teal;
+  float: left;
+  height: 230px;
+}
+#i8 {
+  clear: left;
+  border: 1px solid black;
+  width: 540px;
+}
+#a9 {
+  background-color: teal;
+  float: left;
+  height: 229px;
+  
+
+}
+#i9 {
+  clear: left;
+  border: 1px solid black;
+  width: 540px;
+}
+
+#a10 {
+
+  background-color: teal;
+  float: left;
+  height: 230px;
+}
+#i10 {
+  clear: left;
+  border: 1px solid black;
+  width: 540px;
+}
+#a11 {
+  background-color: teal;
+  float: left;
+  height: 229px;
+  
+
+}
+#i11 {
+  clear: left;
+  border: 1px solid black;
+  width: 540px;
+}
+
+#a12 {
+
+  background-color: teal;
+  float: left;
+  height: 230px;
+}
+#i12 {
+  clear: left;
+  border: 1px solid black;
+  width: 540px;
+}
+#a13 {
+  background-color: teal;
+  float: left;
+  height: 229px;
+  
+
+}
+#i13 {
+  clear: left;
+  border: 1px solid black;
+  width: 540px;
+}
+
+#a14 {
+
+  background-color: teal;
+  float: left;
+  height: 230px;
+}
+#i14 {
+  clear: left;
+  border: 1px solid black;
+  width: 540px;
+}
+#a15 {
+  background-color: teal;
+  float: left;
+  height: 229px;
+  
+
+}
+#i15 {
+  clear: left;
+  border: 1px solid black;
+  width: 540px;
+}
+
+body{
+  background: url(https://cdn.flipsnack.com/collections/uploads/fstunekpze4759te) no-repeat;
+  background-size:1500px;
+  background-attachment: fixed; 
+  background-position: center;
+  margin: 0; 
+  padding: 0;
+}

@@ -1,0 +1,69 @@
+h1{
+    color: purple;
+	font-size:56px;
+	text-align:center;
+	font-weight: bold;
+	text-decoration: underline;
+	text-shadow: 2px 2px 8px #FF0000;
+}
+
+tr a:link, a:visited  {
+  
+  text-decoration: none;
+  background-color: yellow;
+  border: 2px solid blue;
+  color: black;
+  display: block;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 1px;
+  
+}
+
+tr a:hover, a:active{
+background-color: lightblue;
+  color: red;
+}
+
+tr{
+	background-color: yellow;
+}
+th{
+	background-color: pink;
+}
+body{
+	background: url(http://www.welcomia.com/uploads/preview/paint_background_6702.jpg) no-repeat;
+	background-size:1500px;
+	background-attachment: fixed; 
+	background-position: center;
+	margin: 0; 
+	padding: 0;
+	
+    color: black;
+}
+
+.blue{
+	background-color: lightblue;
+}
+
+h2{
+    color: blue;
+	font-size:30px;
+	text-align:center;
+	font-weight: bold;
+	text-decoration: underline;
+	
+}
+
+body h3{
+    color: green;
+	font-size:25px;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+a{
+	background-color: yellow;
+}
+
+
