@@ -14,17 +14,17 @@
     <h3>Select the operation</h3>
   </p>
 
-  <select name="list" id="operator">
-  <option value="sum()">+</option>
-  <option value="diff()">-</option>
-  <option value="product()">*</option>
-  <option value="quotient()">/</option>
-</select>
+  <select name="list" id="operator" onchange="getData();">
+    <option selected="true" disabled="true">select</option>
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+  </select>
  
 <div id="demo2"></div>
 
-<script src="js/script.js" type="text/javascript">
+<script src="script.js" type="text/javascript">
   </script>
 </body>
 </html>
-
