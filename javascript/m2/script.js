@@ -13,12 +13,12 @@ document.addEventListener("DOMContentLoaded",
               var temp =
    document.getElementById("name").value;
           
-          function true(){
+          function tru(){
     document.getElementById("true").checked = true;
     document.getElementById("false").checked = false;
    }
 
-   function false(){
+   function fale(){
     document.getElementById("true").checked = false;
     document.getElementById("false").checked = true;
    }
