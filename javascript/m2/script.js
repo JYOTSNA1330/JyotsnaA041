@@ -12,6 +12,16 @@ document.addEventListener("DOMContentLoaded",
             function (res) {
               var temp =
    document.getElementById("name").value;
+          
+          function true(){
+    document.getElementById("true").checked = true;
+    document.getElementById("false").checked = false;
+   }
+
+   function false(){
+    document.getElementById("true").checked = false;
+    document.getElementById("false").checked = true;
+   }
                  
               if ( temp === res.student1) {
                 var temp2= res.question1
