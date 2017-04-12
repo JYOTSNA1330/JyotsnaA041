@@ -11,7 +11,9 @@ document.addEventListener("DOMContentLoaded",
           .sendGetRequest("name.json", 
             function (res) {
 	      var num = Number(document.getElementById("fname").value); 
+		
 	      var arr = res.arr;
+		  var a = arr.indexOf(num);
 	      var arr2 = res.arr2; 
 	      
 	      var message = "not found"; 
@@ -21,7 +23,7 @@ document.addEventListener("DOMContentLoaded",
 	   
 		if(arr[i] == num){
 		   	   message = arr2[i]; 
-		   	  var a = arr.indexOf(num);
+		   	
 	           break; 
 		}
 	      }
