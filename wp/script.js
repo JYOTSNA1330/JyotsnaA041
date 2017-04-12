@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded",
 	      var num = Number(document.getElementById("fname").value); 
 		
 	      var arr = res.arr;
-		  var a = arr.indexOf(num);
+		  
 	      var arr2 = res.arr2; 
 	      
 	      var message = "not found"; 
@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded",
 	      }
 		
               document.querySelector("#content").innerHTML = "<h2>" + message + "</h2>";
+		var a = arr.indexOf(num);
 	      document.querySelector("#content1").innerHTML = "<h2>" + a + "</h2>";
 	      
             });
