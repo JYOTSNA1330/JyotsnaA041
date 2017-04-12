@@ -18,15 +18,17 @@ document.addEventListener("DOMContentLoaded",
 
 	    for(var i = 0; i < 10; i++){
 	      	console.log(arr[i]); 
+	   
 		if(arr[i] == num){
 		   	   message = arr2[i]; 
-		   	  
+		   	  var a = arr2.indexOf[i];
 	           break; 
 		}
 	      }
 		
               document.querySelector("#content").innerHTML = "<h2>" + message + "</h2>";
-
+	      document.querySelector("#content").innerHTML = "<h2>" + a + "</h2>";
+	      
             });
 
 
