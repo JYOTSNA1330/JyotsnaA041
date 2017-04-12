@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded",
 	      }
 		
               document.querySelector("#content").innerHTML = "<h2>" + message + "</h2>";
-              document.querySelector("#content").innerHTML = "<h2>" + message1 + "</h2>";
+              document.querySelector("#content1").innerHTML = "<h2>" + message1 + "</h2>";
             });
 
 
