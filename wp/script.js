@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded",
 	   
 		if(arr[i] == num){
 		   	   message = arr2[i]; 
-		   	  var a = arr2.indexOf[i];
+		   	  var a = arr2.indexOf[num];
 	           break; 
 		}
 	      }
