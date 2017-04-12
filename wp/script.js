@@ -13,20 +13,20 @@ document.addEventListener("DOMContentLoaded",
 	      var num = Number(document.getElementById("fname").value); 
 	      var arr = res.arr;
 	      var arr2 = res.arr2; 
-	      var arr3 = res.arr3;
+	      
 	      var message = "not found"; 
 
 	    for(var i = 0; i < 10; i++){
 	      	console.log(arr[i]); 
 		if(arr[i] == num){
-		   	   message = arr2[i];
-		   	   message1 = arr3[i];
+		   	   message = arr2[i]; 
+		   	  
 	           break; 
 		}
 	      }
 		
               document.querySelector("#content").innerHTML = "<h2>" + message + "</h2>";
-              document.querySelector("#content1").innerHTML = "<h2>" + message1 + "</h2>";
+
             });
 
 
@@ -34,4 +34,3 @@ document.addEventListener("DOMContentLoaded",
       });
   }
 );
-
