@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded",
 	    for(var i = 0; i < 10; i++){
 	      	console.log(arr[i]); 
 		if(arr[i] == num){
-		   	   message = arr2[i]; 
+		   	   message = arr2[i];
 		   	   message1 = arr3[i];
 	           break; 
 		}
