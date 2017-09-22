@@ -28,9 +28,9 @@ document.addEventListener("DOMContentLoaded",
 		}
 	      }
 		
-              document.querySelector("#content").innerHTML = "<h2>" + message + "</h2>";
+              document.querySelector("#content").innerHTML = "<h2>" + "Name:" + message + "</h2>";
 		var a = arr.indexOf(num);
-	      document.querySelector("#content1").innerHTML = "<h2>" + a + "</h2>";
+	      document.querySelector("#content1").innerHTML = "<h2>" + "Rank in array:" + a + "</h2>";
 	      
             });
 
